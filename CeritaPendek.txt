@@ -1,9 +1,35 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>Ini Title di Browser</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pertualangan di Benua Terlarang</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      h1 {
+        text-align: center;
+        font-size: 28px;
+      }
+      p {
+        text-indent: 20px;
+        margin-bottom: 20px;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
   </head>
   <body>
-    <h1>"Pertualangan di Benua Terlarang"</h1>
+    <h1>Pertualangan di Benua Terlarang</h1>
     <p>
       Dalam dunia yang penuh misteri dan keajaiban, lima sahabat dekat, Amara,
       Kael, Lyra, Finn, dan Elio, memutuskan untuk menjelajahi Benua Terlarang,
@@ -11,13 +37,13 @@
       keberanian, keingintahuan, dan kekuatan masing-masing, mereka memulai
       petualangan epik mereka. Pertama-tama, mereka bertemu dengan Naga Kristal,
       penjaga pintu gerbang ke Benua Terlarang, dan dengan tawaran damai, mereka
-      berhasil meyakinkan Naga Kristal untuk memberikan mereka akses.<br />
-      Di dalam benua itu, mereka menemukan Hutan Ilusi, tempat yang terus
-      berubah dan membingungkan, namun dengan bantuan Lyra, mereka berhasil
-      menavigasi melalui hutan yang berubah bentuk itu. Di puncak Gunung Abadi,
-      mereka menemukan Gerbang Kekuatan, sebuah portal mistis yang konon bisa
-      membuka pintu ke kekuatan yang luar biasa, namun untuk membukanya, mereka
-      harus melewati ujian-ujian yang membutuhkan kekuatan, kebijaksanaan, dan
+      berhasil meyakinkan Naga Kristal untuk memberikan mereka akses. Di dalam
+      benua itu, mereka menemukan Hutan Ilusi, tempat yang terus berubah dan
+      membingungkan, namun dengan bantuan Lyra, mereka berhasil menavigasi
+      melalui hutan yang berubah bentuk itu. Di puncak Gunung Abadi, mereka
+      menemukan Gerbang Kekuatan, sebuah portal mistis yang konon bisa membuka
+      pintu ke kekuatan yang luar biasa, namun untuk membukanya, mereka harus
+      melewati ujian-ujian yang membutuhkan kekuatan, kebijaksanaan, dan
       persatuan mereka. Setelah melewati portal, mereka tiba di Lembah
       Kehidupan, tempat di mana alam dan makhluk hidup bersatu dalam harmoni, di
       sini, mereka menemukan rahasia tentang keselarasan yang sejati dan belajar
