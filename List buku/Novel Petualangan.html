@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+      body {
+        background-image: url("https://www.codewithrandom.com/wp-content/uploads/2022/10/Number-Guessing-Game-using-JavaScript-3.png");
+        background-repeat: no-repeat;
+        background-position: right top;
+        margin-right: 200px;
+        background-attachment: fixed;
+      }
+    </style>
+  </head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pertualangan di Benua Terlarang</title>
@@ -12,20 +23,31 @@
         margin: 0 auto;
         padding: 20px;
       }
+
       h1 {
         text-align: center;
         font-size: 28px;
         font-style: bold;
       }
+
       p {
         text-indent: 40px;
         margin-bottom: 20px;
       }
-      img {
-        display: block;
-        margin: 0 auto;
-        max-width: 100%;
+
+      img.bg {
+        /* Set rules to fill background */
+        min-height: 100%;
+        min-width: 1024px;
+
+        /* Set up proportionate scaling */
+        width: 100%;
         height: auto;
+
+        /* Set up positioning */
+        position: fixed;
+        top: 0;
+        left: 0;
       }
     </style>
   </head>
@@ -70,3 +92,4 @@
     />
   </body>
 </html>
+``` Dengan perubahan ini, gambar akan memenuhi lebar halaman secara responsif.
