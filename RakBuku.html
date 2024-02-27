@@ -1,123 +1,172 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <style>
-      
-    body {
-      margin: 0;
-      background-image: url("https://img.freepik.com/free-vector/geometric-desktop-background-white-abstract-design-vector_53876-144666.jpg?w=996&t=st=1708480330~exp=1708480930~hmac=7659c0470a59bb186dc3d8bd17bf09275b5b521af7223ee32cfebf03eac625e3");
+  <style>
+    .container {
+      width: 801px;
+      background-color: #eaeaea;
+      margin: auto;
+     
     }
-    </style>
-  
-    <body>
-      <style>
-        * {
-          box-sizing: border-box;
-        }
+    body {
+      background-color: #eaeaea;
+      background-attachment: fixed;
+      background-image: url("https://png.pngtree.com/background/20210716/original/pngtree-marble-texture-gray-background-picture-image_1347293.jpg");
+    }
+  </style>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
     h1 {
       font-family: Arial, Helvetica, sans-serif;
       font-style: italic;
       text-align: left;
       font-size: 50px;
     }
-    img{
-      
+    img {
     }
     p {
-        text-indent: 40px;
-        margin-bottom: 20px;
-      }
+      text-indent: 40px;
+      margin-bottom: 20px;
+    }
     /* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-}
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
 
-/* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+    /* Style the topnav links */
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
 
-/* Change color on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-.column {
-  float: left;
-  padding: 10px;
-}
+    /* Change color on hover */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .column {
+      float: left;
+      padding: 30px;
+    }
 
-/* Left and right column */
-.column.side {
-  width: 25%;
-}
+    /* Left and right column */
+    .column.side {
+      width: 25%;
+    }
 
-/* Middle column */
-.column.middle {
-  width: 50%;
-}
+    /* Middle column */
+    .column.middle {
+      width: 50%;
+    }
 
-/* Clear floats after the columns */
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
+    /* Clear floats after the columns */
+    .row::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column.side, .column.middle {
-    width: 100%;
-  }
-}
-</style>
-    </body>
-  </head>
+    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column.side,
+      .column.middle {
+        width: auto;
+      }
+    }
+    .footer{
+      background-color: #333;
+      padding:10px;
+      
+    }
+    .footer .copy{
+      color: #eaeaea;
+      text-align: center;
+      font-size: 12px;
+    }
   </style>
-  <div class="header">
-    <h1>Koleksi Buku</h1>
-  </div>
-  
-  <div class="topnav">
-    <a href="http://127.0.0.1:5500/HTML/List%20buku/Novel%20Petualangan.html">Petualangan di Benua terlarang</a>
-    <a href="http://127.0.0.1:5500/HTML/List%20buku/NovelMisteri.html">Misteri Sungai Amazon</a>
-    <a href="#">Link</a>
-  </div>
-  <h1>
-    <title>Koleksi Buku</title>
-  </h1>
+  <head>
+    <title>Web Sederhana</title>
+  </head>
   <body>
-    <header>
-      <pre>
-      <img
-        src="https://i0.wp.com/lib.ub.ac.id/wp-content/uploads/2023/10/buku.jpg?fit=1600%2C789&ssl=1"
-        style="max-width: 600px; height: 300px"
-      />
-      </pre>
+    <div class="container">
+      <div class="header">
+        <h1>Web sederhana</h1>
+      </div>
 
-     
-    </header>
-    <div class="row">
-      <div class="column side">
-        <h2>Mengapa harus membaca?</h2>
-        <p>Membaca merupakan kegiatan yang penting karena membawa sejumlah manfaat yang signifikan bagi perkembangan individu. Pertama-tama, membaca membuka jendela dunia, memperluas wawasan, dan memperkaya pengetahuan. Dengan membaca, kita dapat mengeksplorasi berbagai topik, memahami perspektif yang beragam, dan memperdalam pemahaman tentang dunia di sekitar kita. </p>
+      <div class="topnav">
+         
+        <a href="http://127.0.0.1:5500/HTML/RakBuku.html">Home</a>
+        <a
+        href="http://127.0.0.1:5500/HTML/List%20buku/Novel%20Petualangan.html"
+        >Petualangan di Benua terlarang</a
+      >
+      <a href="http://127.0.0.1:5500/HTML/List%20buku/NovelMisteri.html"
+        >Misteri Sungai Amazon</a
+      >
       </div>
-      
-      <div class="column middle">
-        <h2>Budayakan Membaca</h2>
-        <p>Untuk membaca dengan efektif, langkah-langkah berikut dapat membantu. Pertama, pilihlah lingkungan yang tenang dan nyaman agar dapat fokus sepenuhnya pada teks yang akan dibaca. Kedua, perhatikan judul dan subjudul untuk memahami pokok bahasan secara umum. Selanjutnya, baca dengan cermat setiap paragraf, mencari gagasan utama dan detail-detail yang mendukungnya. Gunakan teknik seperti menggiring mata (skimming) untuk mendapatkan gambaran keseluruhan dan membaca dengan seksama (scanning) untuk menemukan informasi spesifik.</p>
-        <p> Selain itu, jangan ragu untuk merujuk pada kamus atau sumber lain jika ada kata atau konsep yang kurang dimengerti. Terakhir, refleksikanlah terhadap materi yang telah dibaca untuk memperkuat pemahaman dan mengkonsolidasikan informasi yang diperoleh. Dengan menerapkan strategi-strategi ini, membaca akan menjadi pengalaman yang lebih bermakna dan produktif.</p>
+
+      <header>
+        <img
+          src="https://i0.wp.com/lib.ub.ac.id/wp-content/uploads/2023/10/buku.jpg?fit=1600%2C789&ssl=1"
+          style="height: 395px"
+        />
+      </header>
+      <div class="row">
+        <div class="column side">
+          <h2>Mengapa harus membaca?</h2>
+          <p>
+            Membaca merupakan kegiatan yang penting karena membawa sejumlah
+            manfaat yang signifikan bagi perkembangan individu. Pertama-tama,
+            membaca membuka jendela dunia, memperluas wawasan, dan memperkaya
+            pengetahuan. Dengan membaca, kita dapat mengeksplorasi berbagai
+            topik, memahami perspektif yang beragam, dan memperdalam pemahaman
+            tentang dunia di sekitar kita.
+          </p>
+        </div>
+
+        <div class="column middle">
+          <h2>Budayakan Membaca</h2>
+          <p>
+            Untuk membaca dengan efektif, langkah-langkah berikut dapat
+            membantu. Pertama, pilihlah lingkungan yang tenang dan nyaman agar
+            dapat fokus sepenuhnya pada teks yang akan dibaca. Kedua, perhatikan
+            judul dan subjudul untuk memahami pokok bahasan secara umum.
+            Selanjutnya, baca dengan cermat setiap paragraf, mencari gagasan
+            utama dan detail-detail yang mendukungnya. Gunakan teknik seperti
+            menggiring mata (skimming) untuk mendapatkan gambaran keseluruhan
+            dan membaca dengan seksama (scanning) untuk menemukan informasi
+            spesifik.
+          </p>
+          <p>
+            Selain itu, jangan ragu untuk merujuk pada kamus atau sumber lain
+            jika ada kata atau konsep yang kurang dimengerti. Terakhir,
+            refleksikanlah terhadap materi yang telah dibaca untuk memperkuat
+            pemahaman dan mengkonsolidasikan informasi yang diperoleh. Dengan
+            menerapkan strategi-strategi ini, membaca akan menjadi pengalaman
+            yang lebih bermakna dan produktif.
+          </p>
+        </div>
+
+        <div class="column side">
+          <h2>Rendahnya minat baca di indonesia</h2>
+          <p>
+            Data menunjukkan bahwa minat membaca di Indonesia masih rendah jika
+            dibandingkan dengan negara-negara lain di dunia. Menurut survei yang
+            dilakukan oleh Badan Pusat Statistik (BPS) pada tahun 2020, hanya
+            sebagian kecil masyarakat Indonesia yang secara aktif membaca buku
+            secara rutin.
+          </p>
+        </div>
       </div>
-      
-      <div class="column side">
-        <h2>Rendahnya minat baca di indonesia</h2>
-        <p>Data menunjukkan bahwa minat membaca di Indonesia masih rendah jika dibandingkan dengan negara-negara lain di dunia. Menurut survei yang dilakukan oleh Badan Pusat Statistik (BPS) pada tahun 2020, hanya sebagian kecil masyarakat Indonesia yang secara aktif membaca buku secara rutin.</p>
+      <div class="footer">
+      <p><div class="copy">Copyright 2024, Stefanus Saputra.</div></p>
       </div>
     </div>
   </body>
