@@ -1,7 +1,31 @@
 .jumbotron {
-  padding-top: 2rem;
+  padding-top: 6rem;
   background-color: #e2edff;
 }
-body {
-  min-height: 3000px;
+.footer {
+  background-color: #e2edff;
+}
+section {
+  padding-top: 5rem;
+}
+/* Untuk menambahkan garis bawah pada teks saat teks tersebut ditekan */
+/* Untuk menambahkan garis bawah pada teks saat kursor mouse diarahkan (hover) */
+/* Untuk menambahkan efek animasi pada garis bawah saat kursor mouse diarahkan (hover) */
+.navbar-nav .nav-link {
+  position: relative; /* Menambahkan properti posisi */
+}
+
+.navbar-nav .nav-link::after {
+  content: ""; /* Menambahkan konten pseudo-elemen */
+  position: absolute; /* Menentukan posisi absolute */
+  bottom: -2px; /* Menggeser ke bawah sedikit agar tepat di bawah teks */
+  left: 0; /* Menentukan posisi horizontal */
+  width: 0; /* Mulai dari lebar nol */
+  height: 2px; /* Ketebalan garis */
+  background-color: white; /* Warna garis */
+  transition: width 0.3s; /* Efek animasi saat lebar berubah */
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%; /* Membuat lebar garis menjadi 100% saat hover */
 }
