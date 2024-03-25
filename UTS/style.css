@@ -1,0 +1,47 @@
+:root {
+  --main-color: #d3ad7f;
+  --black: #13131a;
+  --bg: #010103;
+  --border: 0.1rem solid rgba(255, 255, 255, 0.3);
+}
+* {
+  font-family: "Roboto", sans-serif;
+}
+.navbar-nav .nav-link {
+  position: relative;
+}
+
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s;
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+body {
+  background-color: var(--bg);
+}
+
+/* Menghapus gambar latar belakang setelah home */
+section {
+  padding-top: 3rem;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+}
+.home {
+  max-width: 1300px;
+  height: 700px;
+  font-family: "Roboto", sans-serif;
+  background-image: url("peakpx-fotor-2024032523635.jpg");
+  background-size: cover;
+  background-position: center;
+}
