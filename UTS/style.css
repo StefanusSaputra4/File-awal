@@ -30,6 +30,7 @@ section #education {
 }
 
 .foto {
+  min-width: none;
   height: 700px;
   background-image: url("peakpx-fotor-2024032523635.jpg");
   background-size: cover;
@@ -99,7 +100,7 @@ section #education {
 
 .navbar-nav .nav-link::after {
   content: "";
-  /position: absolute;
+  position: absolute;
   bottom: -2px;
   left: 0;
   width: 0;
