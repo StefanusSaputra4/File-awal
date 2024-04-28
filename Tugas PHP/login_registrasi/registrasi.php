@@ -1,3 +1,18 @@
+<?php
+
+$conn = mysqli_connect("localhost","root","","test");
+// if(isset($_POST["register"])){
+//   if(registrasi($_POST)>0){
+//     echo"<script>
+//           alert('user baru berhasil di tambahkan');
+//         </script>";
+//   }else{
+//     echo mysqli_error($conn)
+//   }
+// }
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -89,7 +104,7 @@
           <div class="remember-forgot">
             <label> <input type="checkbox" />I agree to the terms & conditions </label>
           </div>
-          <button type="submit" class="btn">Register</button>
+          <button type="submit" name="register" class="btn">Register</button>
           <div class="login-register">
             <p>
               Already have an account?
