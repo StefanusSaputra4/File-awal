@@ -6,7 +6,8 @@
 }
 
 body {
-  background-image: linear-gradient(to right, #605e7e, #6b73c1, #37b3cc);
+  background-image: url("peakpx.jpg");
+  background-size: cover;
   margin: 50px 2%;
 }
 
