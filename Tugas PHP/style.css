@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --main-color: #d3ad7f;
+  --black: #13131a;
+  --bg: #010103;
+  --border: 0.1rem solid rgba(255, 255, 255, 0.3);
+}
+
+body {
+  background-color: var(--bg);
+  font-family: "Nunito", sans-serif; /* Specify Nunito font */
+}
+section #home {
+  padding-top: 0.5rem;
+}
+/* Menghapus gambar latar belakang setelah home */
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+}
+.form-wrapper {
+  backdrop-filter: blur(9px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 5);
+  border-color: white;
+  border-radius: 10px; /* Mengatur border radius */
+  padding: 20px; /* Mengatur padding */
+}
+.blur-table {
+  filter: blur(5px); /* Ubah nilai sesuai keinginan Anda */
+}
+.foto {
+  min-width: none;
+  height: 700px;
+  background-image: url("peakpx.jpg");
+  background-size: cover;
+  background-position: center;
+}
+section #login {
+  padding-top: 0.5rem;
+}
+.jumbotron {
+  font-family: "Roboto", sans-serif;
+  padding-top: 6rem;
+  height: 600px;
+}
+.for .table-transparent {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  opacity: 0.8;
+}
+
+#about h2 {
+  color: #b79265;
+}
+
+#about .me {
+  color: white;
+}
+
+.image-container img {
+  max-width: 250px;
+  height: auto;
+}
+.about-wrapper {
+  border-radius: 20px;
+  backdrop-filter: blur(9px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 5);
+  border-color: white;
+}
+.form-wrapper {
+  border-radius: 20px;
+  backdrop-filter: blur(9px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 5);
+  border-color: white;
+}
+#story .card {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#story .card:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+}
+.navbar-nav .nav-link {
+  position: relative; /* Menambahkan properti posisi */
+}
+
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s; /* Efek animasi saat lebar berubah */
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%; /* Membuat lebar garis menjadi 100% saat hover */
+}
